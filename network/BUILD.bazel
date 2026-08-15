@@ -1,0 +1,18 @@
+load("@rules_cc//cc:cc_library.bzl", "cc_library")
+
+cc_library(
+    name = "network",
+    srcs = [
+        "NetworkClient.cpp",
+        "TelemetryUploader.cpp",
+    ],
+    hdrs = [
+        "NetworkClient.h",
+        "TelemetryUploader.h",
+    ],
+    deps = [
+        "//common:common",
+        "//telemetry:telemetry",
+    ],
+    visibility = ["//visibility:public"],
+)

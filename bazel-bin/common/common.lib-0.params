@@ -1,0 +1,6 @@
+/nologo
+/OUT:bazel-out/x64_windows-fastbuild/bin/common/common.lib
+/MACHINE:X64
+bazel-out/x64_windows-fastbuild/bin/common/_objs/common/Logger.obj
+bazel-out/x64_windows-fastbuild/bin/common/_objs/common/Config.obj
+/ignore:4221

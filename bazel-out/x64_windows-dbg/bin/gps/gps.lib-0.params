@@ -1,0 +1,6 @@
+/nologo
+/OUT:bazel-out/x64_windows-dbg/bin/gps/gps.lib
+/MACHINE:X64
+bazel-out/x64_windows-dbg/bin/gps/_objs/gps/GpsData.obj
+bazel-out/x64_windows-dbg/bin/gps/_objs/gps/GpsManager.obj
+/ignore:4221

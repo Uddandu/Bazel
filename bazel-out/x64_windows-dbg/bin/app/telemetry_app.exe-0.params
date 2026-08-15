@@ -1,0 +1,13 @@
+/nologo
+/OUT:bazel-out/x64_windows-dbg/bin/app/telemetry_app.exe
+bazel-out/x64_windows-dbg/bin/app/_objs/telemetry_app/main.obj
+bazel-out/x64_windows-dbg/bin/network/network.lib
+bazel-out/x64_windows-dbg/bin/telemetry/telemetry.lib
+bazel-out/x64_windows-dbg/bin/can/can.lib
+bazel-out/x64_windows-dbg/bin/gps/gps.lib
+bazel-out/x64_windows-dbg/bin/common/common.lib
+/SUBSYSTEM:CONSOLE
+/MACHINE:X64
+/DEFAULTLIB:msvcrtd.lib
+/DEBUG:FULL
+/INCREMENTAL:NO

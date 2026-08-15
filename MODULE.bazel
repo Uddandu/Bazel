@@ -1,5 +1,9 @@
 module(
+<<<<<<< HEAD
     name = "cmake_bazel_demo",
+=======
+    name = "vehicle_telemetry",
+>>>>>>> 68cae9a252a1fc8eea3ef631ccc7623ca2794054
     version = "1.0",
 )
 
