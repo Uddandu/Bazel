@@ -1,0 +1,9 @@
+/nologo
+/OUT:bazel-out/x64_windows-fastbuild/bin/hello.exe
+bazel-out/x64_windows-fastbuild/bin/_objs/hello/main.obj
+bazel-out/x64_windows-fastbuild/bin/calculator.lib
+/SUBSYSTEM:CONSOLE
+/MACHINE:X64
+/DEFAULTLIB:msvcrt.lib
+/DEBUG:FASTLINK
+/INCREMENTAL:NO

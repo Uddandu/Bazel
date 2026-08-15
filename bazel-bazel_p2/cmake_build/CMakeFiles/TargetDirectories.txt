@@ -1,0 +1,4 @@
+C:/Users/princ/OneDrive/Desktop/Bazel_P2/cmake_build/CMakeFiles/calculator.dir
+C:/Users/princ/OneDrive/Desktop/Bazel_P2/cmake_build/CMakeFiles/hello.dir
+C:/Users/princ/OneDrive/Desktop/Bazel_P2/cmake_build/CMakeFiles/ALL_BUILD.dir
+C:/Users/princ/OneDrive/Desktop/Bazel_P2/cmake_build/CMakeFiles/ZERO_CHECK.dir
