@@ -1,0 +1,13 @@
+/nologo
+/OUT:bazel-out/x64_windows-opt/bin/app/telemetry_app.exe
+bazel-out/x64_windows-opt/bin/app/_objs/telemetry_app/main.obj
+bazel-out/x64_windows-opt/bin/network/network.lib
+bazel-out/x64_windows-opt/bin/telemetry/telemetry.lib
+bazel-out/x64_windows-opt/bin/can/can.lib
+bazel-out/x64_windows-opt/bin/gps/gps.lib
+bazel-out/x64_windows-opt/bin/common/common.lib
+/SUBSYSTEM:CONSOLE
+/MACHINE:X64
+/DEFAULTLIB:msvcrt.lib
+/OPT:ICF
+/OPT:REF

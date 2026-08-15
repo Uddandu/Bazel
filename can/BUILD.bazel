@@ -1,0 +1,17 @@
+load("@rules_cc//cc:cc_library.bzl", "cc_library")
+
+cc_library(
+    name = "can",
+    srcs = [
+        "CanFrame.cpp",
+        "CanBus.cpp",
+    ],
+    hdrs = [
+        "CanFrame.h",
+        "CanBus.h",
+    ],
+    deps = [
+        "//common:common",
+    ],
+    visibility = ["//visibility:public"],
+)

@@ -1,0 +1,17 @@
+load("@rules_cc//cc:cc_library.bzl", "cc_library")
+
+cc_library(
+    name = "gps",
+    srcs = [
+        "GpsData.cpp",
+        "GpsManager.cpp",
+    ],
+    hdrs = [
+        "GpsData.h",
+        "GpsManager.h",
+    ],
+    deps = [
+        "//common:common",
+    ],
+    visibility = ["//visibility:public"],
+)

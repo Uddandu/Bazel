@@ -1,0 +1,19 @@
+load("@rules_cc//cc:cc_library.bzl", "cc_library")
+
+cc_library(
+    name = "telemetry",
+    srcs = [
+        "TelemetryData.cpp",
+        "TelemetryProcessor.cpp",
+    ],
+    hdrs = [
+        "TelemetryData.h",
+        "TelemetryProcessor.h",
+    ],
+    deps = [
+        "//can:can",
+        "//gps:gps",
+        "//common:common",
+    ],
+    visibility = ["//visibility:public"],
+)

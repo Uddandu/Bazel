@@ -1,0 +1,13 @@
+/nologo
+/OUT:bazel-out/x64_windows-fastbuild/bin/app/telemetry_app.exe
+bazel-out/x64_windows-fastbuild/bin/app/_objs/telemetry_app/main.obj
+bazel-out/x64_windows-fastbuild/bin/network/network.lib
+bazel-out/x64_windows-fastbuild/bin/telemetry/telemetry.lib
+bazel-out/x64_windows-fastbuild/bin/can/can.lib
+bazel-out/x64_windows-fastbuild/bin/gps/gps.lib
+bazel-out/x64_windows-fastbuild/bin/common/common.lib
+/SUBSYSTEM:CONSOLE
+/MACHINE:X64
+/DEFAULTLIB:msvcrt.lib
+/DEBUG:FASTLINK
+/INCREMENTAL:NO

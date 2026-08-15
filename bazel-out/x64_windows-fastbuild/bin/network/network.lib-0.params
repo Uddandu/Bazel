@@ -1,0 +1,6 @@
+/nologo
+/OUT:bazel-out/x64_windows-fastbuild/bin/network/network.lib
+/MACHINE:X64
+bazel-out/x64_windows-fastbuild/bin/network/_objs/network/NetworkClient.obj
+bazel-out/x64_windows-fastbuild/bin/network/_objs/network/TelemetryUploader.obj
+/ignore:4221

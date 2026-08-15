@@ -1,0 +1,18 @@
+load("@rules_cc//cc:cc_binary.bzl", "cc_binary")
+load(":custom_rules.bzl", "generate_file")
+
+cc_binary(
+    name = "telemetry_app",
+    srcs = [
+        "main.cpp",
+    ],
+    deps = [
+        "//common:common",
+        "//telemetry:telemetry",
+        "//network:network",
+    ],
+)
+
+generate_file(
+    name = "generated_config",
+)

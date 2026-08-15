@@ -1,0 +1,6 @@
+/nologo
+/OUT:bazel-out/x64_windows-dbg/bin/telemetry/telemetry.lib
+/MACHINE:X64
+bazel-out/x64_windows-dbg/bin/telemetry/_objs/telemetry/TelemetryData.obj
+bazel-out/x64_windows-dbg/bin/telemetry/_objs/telemetry/TelemetryProcessor.obj
+/ignore:4221

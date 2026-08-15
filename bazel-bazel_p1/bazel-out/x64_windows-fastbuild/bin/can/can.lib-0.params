@@ -1,0 +1,6 @@
+/nologo
+/OUT:bazel-out/x64_windows-fastbuild/bin/can/can.lib
+/MACHINE:X64
+bazel-out/x64_windows-fastbuild/bin/can/_objs/can/CanFrame.obj
+bazel-out/x64_windows-fastbuild/bin/can/_objs/can/CanBus.obj
+/ignore:4221
